@@ -16,8 +16,8 @@ config ={
 }
 
 bot = commands.Bot(command_prefix='!')
-bot.load_extension('membercommands')
-bot.load_extension('knowledgebase')
+bot.load_extension('cogs.membercommands')
+bot.load_extension('cogs.knowledgebase')
 welcomemsg = 'Welcome to Exoplanet - FC Modding! <:jackhat:528240349668179988>\n\nPlease take your time and read <#527327177285304350>!\n\nIf you want to learn more about how the server is structured have a look at <#527952199163183114>.\n\nIf you need any additional help feel free to message me with !help to display available commands.'
 
 @bot.event
